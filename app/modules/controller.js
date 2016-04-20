@@ -18,6 +18,7 @@ class TodosController {
 
   toggleCompleted(item) {
     item.completed = !item.completed;
+		
     console.log(item);
   }
 
